@@ -1,0 +1,55 @@
+.widgetSm{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f2f2f2;
+    box-shadow:  21px 21px 42px #bebebe,
+                -21px -21px 42px #ffffff;
+}
+
+.widgetSmTitle{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.widgetSmItem{
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.widgetSmImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetSmUser{
+    display: flex;
+    flex-direction: column;
+}
+.widgetSmUsername{
+    font-weight: bold;
+}
+.widgetSmUserTitle{
+    font-weight: 300;
+}
+.widgetSmBtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    cursor: pointer;
+    color: gray;
+    background-color: rgb(227, 225, 225);
+}
+.widgetSmIcon{
+    font-size: 16px;
+    margin-right: 5px;
+}
